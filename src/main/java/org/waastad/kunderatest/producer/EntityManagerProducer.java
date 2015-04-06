@@ -26,7 +26,7 @@ public class EntityManagerProducer {
     @Produces
     @RequestScoped
     public EntityManager create() {
-        log.info("Producing entitymanager: {}", em);
+//        log.info("Producing entitymanager: {}", em);
         return em;
     }
 }
